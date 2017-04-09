@@ -1,4 +1,4 @@
-﻿
+﻿//2
 
 
 
@@ -185,7 +185,7 @@ namespace WindowsFormsApplicationMIDI
           
             InputPort ip = new InputPort();
             /*Console.WriteLine("devices-sum:{0}", InputPort.InputCount);*/
-            ip.Open(1);
+            ip.Open(0);
             ip.Start();
             try
             {
